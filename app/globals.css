@@ -3,27 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --background: #FAFAF5; /* Warm Beige */
-  --foreground: #2D3A31; /* Dark Earth */
-  
-  --primary: #7C77B9; /* Deep Lavender */
+  --background: #FFF5F9;
+  /* Very Light Pinkish White */
+  --foreground: #4A1D38;
+  /* Dark Plum */
+
+  --primary: #9D4EDD;
+  /* Vibrant Orchid */
   --primary-foreground: #FFFFFF;
-  
-  --secondary: #E8EFE8; /* Soft Sage */
-  --secondary-foreground: #2D3A31;
-  
-  --accent: #FF8C76; /* Coral */
+
+  --secondary: #F3E5F5;
+  /* Soft Lavender */
+  --secondary-foreground: #4A1D38;
+
+  --accent: #FF6B99;
+  /* Hot Pink */
   --accent-foreground: #FFFFFF;
-  
-  --muted: #E8EFE8;
-  --muted-foreground: #6B7C70;
+
+  --muted: #F8E1F0;
+  --muted-foreground: #8B5E78;
 }
 
 @media (prefers-color-scheme: dark) {
+
   /* Optional: Define dark mode override if needed, 
      but for now enforcing the "warm/light" vibe from the brief */
   :root {
-     /* Keeping the same for now to maintain the specific aesthetic */
+    /* Keeping the same for now to maintain the specific aesthetic */
   }
 }
 
@@ -32,4 +38,3 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
