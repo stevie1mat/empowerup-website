@@ -1,5 +1,7 @@
 "use client";
 
+import { toast } from "sonner";
+
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import Image from "next/image";
@@ -31,11 +33,11 @@ export function Hero() {
                         </div>
 
                         <div className="flex flex-col gap-4 sm:flex-row">
-                            <button className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-8 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 hover:scale-105 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                            <button onClick={() => toast.success("Coming Soon!")} className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-8 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 hover:scale-105 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                                 <Download className="mr-2 h-4 w-4" />
                                 Download App
                             </button>
-                            <button className="inline-flex h-12 items-center justify-center rounded-full border border-input bg-background/50 backdrop-blur-sm px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                            <button onClick={() => toast.success("Coming Soon!")} className="inline-flex h-12 items-center justify-center rounded-full border border-input bg-background/50 backdrop-blur-sm px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                                 Talk to Luna
                             </button>
                         </div>

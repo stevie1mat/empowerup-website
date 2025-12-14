@@ -1,5 +1,7 @@
 "use client";
 
+import { toast } from "sonner";
+
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -46,7 +48,7 @@ export function Header() {
                         <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                             Privacy
                         </a>
-                        <button className="rounded-full bg-foreground text-background px-6 py-2.5 text-sm font-medium hover:bg-foreground/90 transition-colors">
+                        <button onClick={() => toast.success("Coming Soon!")} className="rounded-full bg-foreground text-background px-6 py-2.5 text-sm font-medium hover:bg-foreground/90 transition-colors">
                             Download App
                         </button>
                     </nav>
@@ -79,7 +81,7 @@ export function Header() {
                         <a href="#" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
                             Privacy
                         </a>
-                        <button className="w-full rounded-full bg-foreground text-background px-6 py-3 text-sm font-medium hover:bg-foreground/90 transition-colors">
+                        <button onClick={() => toast.success("Coming Soon!")} className="w-full rounded-full bg-foreground text-background px-6 py-3 text-sm font-medium hover:bg-foreground/90 transition-colors">
                             Download App
                         </button>
                     </nav>
