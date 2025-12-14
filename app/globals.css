@@ -3,14 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAFAF5; /* Warm Beige */
+  --foreground: #2D3A31; /* Dark Earth */
+  
+  --primary: #7C77B9; /* Deep Lavender */
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #E8EFE8; /* Soft Sage */
+  --secondary-foreground: #2D3A31;
+  
+  --accent: #FF8C76; /* Coral */
+  --accent-foreground: #FFFFFF;
+  
+  --muted: #E8EFE8;
+  --muted-foreground: #6B7C70;
 }
 
 @media (prefers-color-scheme: dark) {
+  /* Optional: Define dark mode override if needed, 
+     but for now enforcing the "warm/light" vibe from the brief */
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+     /* Keeping the same for now to maintain the specific aesthetic */
   }
 }
 
@@ -20,8 +33,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
