@@ -106,18 +106,39 @@ export function Features() {
 
                     {/* Map UI Mockup */}
                     <div className="w-full sm:w-1/2 h-40 sm:h-auto bg-[#F0F4F8] rounded-2xl border border-gray-200 relative overflow-hidden flex items-center justify-center shadow-inner">
-                        {/* Abstract Map Lines */}
-                        <div className="absolute inset-0 opacity-40">
-                            <svg width="100%" height="100%" viewBox="0 0 200 150" preserveAspectRatio="none">
-                                <path d="M0 40 H200 M40 0 V150 M120 0 V150 M0 100 H200 M80 0 L150 150" stroke="#CBD5E1" strokeWidth="2" fill="none" />
+                        {/* Map Grid & Streets */}
+                        <div className="absolute inset-0 opacity-60">
+                            <svg width="100%" height="100%">
+                                <defs>
+                                    <pattern id="map-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="2.5" />
+                                    </pattern>
+                                </defs>
+                                <rect width="100%" height="100%" fill="url(#map-grid)" />
+                                {/* Diagonal Main Road */}
+                                <line x1="120" y1="-20" x2="160" y2="300" stroke="white" strokeWidth="6" />
                             </svg>
                         </div>
-                        {/* Pins */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center animate-bounce duration-1000">
-                            <div className="px-2 py-1 bg-foreground text-background text-[10px] font-bold rounded shadow-lg flex items-center gap-1 mb-1 whitespace-nowrap">
-                                5 min <ShoppingBag className="w-3 h-3" />
+
+                        {/* Other Stores (Inactive) */}
+                        <div className="absolute top-8 left-12 opacity-50">
+                            <MapPin className="w-4 h-4 text-gray-400 fill-current" />
+                        </div>
+                        <div className="absolute bottom-10 left-8 opacity-50">
+                            <MapPin className="w-4 h-4 text-gray-400 fill-current" />
+                        </div>
+                        <div className="absolute top-1/3 right-8 opacity-50">
+                            <MapPin className="w-4 h-4 text-gray-400 fill-current" />
+                        </div>
+
+                        {/* Active Pin (Nearest) */}
+                        <div className="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center group cursor-pointer z-10 transition-transform hover:-translate-y-1">
+                            <div className="px-2.5 py-1.5 bg-[#2D2A3E] text-white text-[10px] font-bold rounded-lg shadow-xl flex items-center gap-1.5 mb-2 whitespace-nowrap">
+                                5 min <ShoppingBag className="w-3 h-3 text-white/80" />
                             </div>
-                            <MapPin className="w-6 h-6 text-foreground fill-current drop-shadow-md" />
+                            <MapPin className="w-8 h-8 text-[#2D2A3E] fill-current drop-shadow-md" />
+                            {/* Pulse effect for active location */}
+                            <div className="absolute bottom-1 left-1/2 -translate-x-1/2 translate-y-1 w-2 h-2 bg-[#2D2A3E]/30 rounded-full blur-[2px]" />
                         </div>
                     </div>
                 </motion.div>
