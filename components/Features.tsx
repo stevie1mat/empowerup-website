@@ -6,13 +6,13 @@ import { cn } from "@/lib/utils";
 
 export function Features() {
     return (
-        <section className="container mx-auto px-4 py-24 md:py-32">
+        <section className="container mx-auto px-4 py-24 md:py-32" id="features">
             <div className="mb-16 text-center max-w-2xl mx-auto">
                 <h2 className="text-3xl font-serif font-medium text-foreground md:text-5xl">
                     More than just tracking.
                 </h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    Empower Up connects your body&apos;s rhythm with the world around you.
+                    MahaCura connects your body&apos;s rhythm with the world around you.
                     Find essentials nearby, manage your inventory, and stay ahead of your cycle.
                 </p>
             </div>
@@ -24,7 +24,7 @@ export function Features() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="col-span-1 md:col-span-2 lg:col-span-2 lg:row-span-2 relative overflow-hidden rounded-3xl bg-[#F3E5F5] p-8 flex flex-col gap-6 group hover:shadow-xl transition-all duration-300"
+                    className="col-span-1 md:col-span-2 lg:col-span-2 lg:row-span-2 relative overflow-hidden rounded-3xl bg-secondary/30 p-8 flex flex-col gap-6 group hover:shadow-xl transition-all duration-300"
                 >
                     <div className="absolute top-0 right-0 w-64 h-64 bg-white/40 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none" />
 
@@ -89,7 +89,7 @@ export function Features() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
-                    className="col-span-1 md:col-span-2 lg:col-span-2 bg-[#FDEDF2] border border-gray-100 rounded-3xl p-8 flex flex-col sm:flex-row gap-8 group hover:shadow-xl transition-all duration-300 relative overflow-hidden"
+                    className="col-span-1 md:col-span-2 lg:col-span-2 bg-secondary/20 border border-gray-100 rounded-3xl p-8 flex flex-col sm:flex-row gap-8 group hover:shadow-xl transition-all duration-300 relative overflow-hidden"
                 >
                     <div className="absolute inset-0 bg-[#F5F5F0] opacity-30 pointer-events-none" />
                     <div className="absolute inset-0 bg-[radial-gradient(#d1d5db_1px,transparent_1px)] [background-size:20px_20px] opacity-40 pointer-events-none" />
@@ -149,7 +149,7 @@ export function Features() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
-                    className="col-span-1 lg:col-span-1 lg:row-span-1 bg-[#E1BEE7]/20 rounded-3xl p-8 relative overflow-hidden group hover:shadow-lg transition-all"
+                    className="col-span-1 lg:col-span-1 lg:row-span-1 bg-primary/5 rounded-3xl p-8 relative overflow-hidden group hover:shadow-lg transition-all"
                 >
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white text-primary shadow-sm">
                         <PackageOpen className="h-6 w-6" />
@@ -201,7 +201,7 @@ export function Features() {
                                 <Bell className="w-4 h-4" />
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-[11px] font-bold text-foreground">Empower Up</span>
+                                <span className="text-[11px] font-bold text-foreground">MahaCura</span>
                                 <span className="text-[10px] text-muted-foreground leading-tight">Order reminder: Cycle starts in 3 days.</span>
                             </div>
                         </div>

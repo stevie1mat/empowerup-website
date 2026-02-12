@@ -30,7 +30,7 @@ export function HowItWorks() {
             <div className="container px-4 md:px-6 relative z-10 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl mb-4">
-                        How Empower Up Works
+                        How MahaCura Works
                     </h2>
                     <p className="text-muted-foreground text-lg">
                         Three simple steps to mastering your monthly rhythm.

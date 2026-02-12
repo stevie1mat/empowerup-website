@@ -11,7 +11,7 @@ const faqs = [
     },
     {
         q: "Does it sync with Apple Health?",
-        a: "Absolutely. Empower Up offers 2-way sync with Apple Health, so all your data lives in one secure place.",
+        a: "Absolutely. MahaCura offers 2-way sync with Apple Health, so all your data lives in one secure place.",
     },
     {
         q: "Is the basic version free?",

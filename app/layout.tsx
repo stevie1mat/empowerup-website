@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Empower Up Canada | #1 AI Cycle Syncing & Period Tracker",
-  description: "Join thousands of Canadian women mastering their cycle with Empower Up. Localized inventory tracking for brands you love (Shoppers, Rexall) and AI-backed health insights.",
-  keywords: ["Period Tracker Canada", "Empower Up Canada", "Cycle Syncing App", "Women's Health Canada", "Ovulation Tracker Toronto", "Menstrual Cycle App"],
+  title: "MahaCura Canada | #1 AI Cycle Syncing & Period Tracker",
+  description: "Join thousands of Canadian women mastering their cycle with MahaCura. Localized inventory tracking for brands you love (Shoppers, Rexall) and AI-backed health insights.",
+  keywords: ["Period Tracker Canada", "MahaCura Canada", "Cycle Syncing App", "Women's Health Canada", "Ovulation Tracker Toronto", "Menstrual Cycle App"],
   openGraph: {
-    title: "Empower Up Canada",
+    title: "MahaCura Canada",
     description: "The only period tracker that knows what's in stock at your local Canadian pharmacy. AI-powered, privacy-first.",
     locale: "en_CA",
     type: "website",

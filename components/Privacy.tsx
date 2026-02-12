@@ -5,7 +5,7 @@ import { ShieldCheck } from "lucide-react";
 
 export function Privacy() {
     return (
-        <section className="bg-secondary/20 py-24 md:py-32">
+        <section className="bg-secondary/20 py-24 md:py-32" id="privacy">
             <div className="container mx-auto px-4 text-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}

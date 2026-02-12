@@ -37,9 +37,9 @@ export function Hero() {
                                 <Download className="mr-2 h-4 w-4" />
                                 Download App
                             </button>
-                            <button onClick={() => toast.success("Coming Soon!")} className="inline-flex h-12 items-center justify-center rounded-full border border-input bg-background/50 backdrop-blur-sm px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                                Talk to Luna
-                            </button>
+                            <a href="#science" className="inline-flex h-12 items-center justify-center rounded-full border border-input bg-background/50 backdrop-blur-sm px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                                Meet Luna
+                            </a>
                         </div>
 
                         <div className="text-sm text-muted-foreground flex items-center gap-2">
@@ -77,7 +77,7 @@ export function Hero() {
                         >
                             {/* 3D Circle/Orb Behind - Very Light Pink */}
                             <div
-                                className="absolute top-1/2 left-1/2 w-[480px] h-[480px] rounded-full bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 blur-2xl -z-20 opacity-80"
+                                className="absolute top-1/2 left-1/2 w-[480px] h-[480px] rounded-full bg-gradient-to-br from-emerald-100 via-teal-200 to-emerald-300 blur-2xl -z-20 opacity-80"
                                 style={{
                                     transform: "translate(-50%, -50%) translateZ(-100px)",
                                     boxShadow: "inset -10px -10px 40px rgba(0,0,0,0.05), inset 10px 10px 30px rgba(255,255,255,0.4)"
@@ -85,7 +85,7 @@ export function Hero() {
                             />
                             {/* Outer Soft Glow */}
                             <div
-                                className="absolute top-1/2 left-1/2 w-[550px] h-[550px] rounded-full bg-pink-400/20 blur-3xl -z-30"
+                                className="absolute top-1/2 left-1/2 w-[550px] h-[550px] rounded-full bg-primary/20 blur-3xl -z-30"
                                 style={{ transform: "translate(-50%, -50%) translateZ(-150px)" }}
                             />
                             {/* Glass Ring */}
@@ -100,10 +100,10 @@ export function Hero() {
                                 <div className="absolute top-0 left-1/2 -translate-x-1/2 h-6 w-28 bg-black rounded-b-xl z-20" />
 
                                 {/* Screen Image */}
-                                <div className="relative w-full h-full bg-[#FFF5F9]">
+                                <div className="relative w-full h-full bg-[#E0F2F1]">
                                     <Image
                                         src="/app_screen_pink.png"
-                                        alt="Empower Up App Interface"
+                                        alt="MahaCura App Interface"
                                         fill
                                         className="object-cover"
                                         priority

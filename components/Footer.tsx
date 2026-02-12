@@ -8,9 +8,9 @@ export function Footer() {
             <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row">
 
                 <div className="flex flex-col items-center gap-2 md:items-start">
-                    <span className="text-xl font-serif font-bold text-foreground">Empower Up</span>
+                    <span className="text-xl font-serif font-bold text-foreground">MahaCura</span>
                     <p className="text-sm text-muted-foreground">
-                        © {new Date().getFullYear()} Empower Up. All rights reserved.
+                        © {new Date().getFullYear()} MahaCura. All rights reserved.
                     </p>
                 </div>
 

@@ -3,38 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --background: #FFF5F9;
-  /* Very Light Pinkish White */
-  --foreground: #4A1D38;
-  /* Dark Plum */
+  /* Green Gradient Theme */
+  --background: #FFFFFF;
+  /* Fallback */
+  --foreground: #1F2937;
+  /* Dark Grey/Green for text */
 
-  --primary: #9D4EDD;
-  /* Vibrant Orchid */
+  --primary: #07a582;
+  /* Vivid Turquoise */
   --primary-foreground: #FFFFFF;
+  /* White */
 
-  --secondary: #F3E5F5;
-  /* Soft Lavender */
-  --secondary-foreground: #4A1D38;
+  --secondary: #E0F2F1;
+  /* Light Teal/Green */
+  --secondary-foreground: #004D40;
+  /* Dark Teal */
 
-  --accent: #FF6B99;
-  /* Hot Pink */
+  --accent: #FF96C4;
+  /* Pastel Pink (Kept as accent) */
   --accent-foreground: #FFFFFF;
 
-  --muted: #F8E1F0;
-  --muted-foreground: #8B5E78;
-}
-
-@media (prefers-color-scheme: dark) {
-
-  /* Optional: Define dark mode override if needed, 
-     but for now enforcing the "warm/light" vibe from the brief */
-  :root {
-    /* Keeping the same for now to maintain the specific aesthetic */
-  }
+  --muted: #F3F4F6;
+  --muted-foreground: #6B7280;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: linear-gradient(to bottom, #FFFFFF, #F0FDF9);
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }

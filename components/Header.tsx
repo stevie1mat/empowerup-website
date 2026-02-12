@@ -33,19 +33,19 @@ export function Header() {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
                         <span className="text-2xl font-serif font-bold text-foreground">
-                            Empower Up
+                            MahaCura
                         </span>
                     </div>
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center gap-8">
-                        <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+                        <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                             Features
                         </a>
-                        <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+                        <a href="#science" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                             Science
                         </a>
-                        <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+                        <a href="#privacy" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                             Privacy
                         </a>
                         <button onClick={() => toast.success("Coming Soon!")} className="rounded-full bg-foreground text-background px-6 py-2.5 text-sm font-medium hover:bg-foreground/90 transition-colors">
@@ -72,13 +72,13 @@ export function Header() {
                     className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 p-4 md:hidden shadow-lg"
                 >
                     <nav className="flex flex-col gap-4">
-                        <a href="#" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
+                        <a href="#features" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
                             Features
                         </a>
-                        <a href="#" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
+                        <a href="#science" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
                             Science
                         </a>
-                        <a href="#" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
+                        <a href="#privacy" className="text-base font-medium text-muted-foreground hover:text-foreground p-2">
                             Privacy
                         </a>
                         <button onClick={() => toast.success("Coming Soon!")} className="w-full rounded-full bg-foreground text-background px-6 py-3 text-sm font-medium hover:bg-foreground/90 transition-colors">
