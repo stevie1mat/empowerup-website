@@ -14,7 +14,7 @@ export const contentType = 'image/png'
 export default function Icon() {
     return new ImageResponse(
         (
-            // ImageResponse JSX element
+
             <div
                 style={{
                     fontSize: 24,
