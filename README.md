@@ -4,24 +4,23 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 ![MahaCura Dashboard](public/git-screenshot.png)
-*Add your website screenshot here*
 
 ---
 
 ## ✨ Key Features
 
-- **🧠 Cycle Intelligence**: AI-powered predictions for symptoms and energy levels, syncing your calendar with your biology.
-- **📍 Emergency Essentials**: Locate the nearest verified store with period products in stock when caught unprepared.
-- **📦 Smart Inventory**: Track your personal stash and receive alerts before you run out of essentials.
-- **🔔 Subtle Alerts**: Private, discrete notifications and reminders designed for your privacy.
-- **💬 Meet Luna**: Your AI cycle companion that provides daily insights based on your peaking energy levels.
+- ** Cycle Intelligence**: AI-powered predictions for symptoms and energy levels, syncing your calendar with your biology.
+- ** Emergency Essentials**: Locate the nearest verified store with period products in stock when caught unprepared.
+- ** Smart Inventory**: Track your personal stash and receive alerts before you run out of essentials.
+- ** Subtle Alerts**: Private, discrete notifications and reminders designed for your privacy.
+- ** Meet Luna**: Your AI cycle companion that provides daily insights based on your peaking energy levels.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -32,7 +31,7 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -55,7 +54,7 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `app/`: Next.js App Router pages and layouts.
 - `components/`: Reusable UI components (Hero, Features, HowItWorks, etc.).
@@ -64,7 +63,7 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ---
 
-## 📄 License
+## License
 
 This project is private and intended for internal use.
 
