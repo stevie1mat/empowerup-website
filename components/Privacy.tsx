@@ -18,7 +18,7 @@ export function Privacy() {
                         <ShieldCheck className="h-10 w-10" />
                     </div>
 
-                    <h2 className="text-3xl font-serif font-medium text-foreground md:text-5xl">
+                    <h2 className="text-3xl font-urbanist font-medium text-foreground md:text-5xl">
                         Encrypted. Anonymous. Yours.
                     </h2>
 

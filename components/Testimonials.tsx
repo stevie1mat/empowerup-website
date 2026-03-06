@@ -29,7 +29,7 @@ export function Testimonials() {
         <section className="py-24 bg-primary/5 relative overflow-hidden" id="community">
             <div className="container px-4 md:px-6 relative z-10 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl mb-4">
+                    <h2 className="text-3xl font-urbanist font-medium tracking-tight sm:text-4xl mb-4">
                         Trusted by Women Across <span className="text-red-500">Canada</span>.
                     </h2>
                     <p className="text-muted-foreground text-lg">

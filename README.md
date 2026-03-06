@@ -1,6 +1,6 @@
 # MahaCura - Period Tracker Website
 
-MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your life with your biology. Beyond simple tracking, MahaCura connects your body's rhythm with the world around you, helping you find essentials nearby and manage your inventory.
+MahaCura is a modern, AI-powered hormonal health ecosystem designed to synchronize daily life with biological rhythms. Beyond standard cycle tracking, MahaCura integrates physiological insights with practical life management, offering location-based essential services and smart inventory tracking.
 
 ---
 
@@ -10,24 +10,24 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- ** Cycle Intelligence**: AI-powered predictions for symptoms and energy levels, syncing your calendar with your biology.
-- ** Emergency Essentials**: Locate the nearest verified store with period products in stock when caught unprepared.
-- ** Smart Inventory**: Track your personal stash and receive alerts before you run out of essentials.
-- ** Subtle Alerts**: Private, discrete notifications and reminders designed for your privacy.
-- ** Meet Luna**: Your AI cycle companion that provides daily insights based on your peaking energy levels.
+- **Cycle Intelligence**: Advanced AI-driven predictions for energy levels and physiological shifts, enabling seamless integration of biological rhythms with daily scheduling.
+- **Emergency Essentials**: Real-time geolocation services to identify verified retailers with period products in stock.
+- **Smart Inventory Management**: Automated tracking of personal supplies with proactive depletion alerts.
+- **Privacy-First Notifications**: Secure, discrete reminders and insights designed with a commitment to user data sovereignty and privacy.
+- **Luna AI Companion**: A specialized assistant providing daily hormonal health insights and personalized recommendations.
 
 ---
 
-## Tech Stack
+## Technical Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Typography**: [Urbanist](https://fonts.google.com/specimen/Urbanist) (Primary Heading), Geist (Sans)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Components**: Custom-built with a focus on "Glassmorphism" and premium aesthetics.
-- **Font**: Geist & Custom Serif fonts for a premium feel.
+- **Architecture**: Custom-engineered components utilizing glassmorphism and premium design principles.
 
 ---
 
@@ -35,35 +35,37 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ### Prerequisites
 
-- Node.js 18+
-- npm / yarn / pnpm
+- Node.js 18.0 or higher
+- Package Manager: npm, yarn, or pnpm
 
 ### Installation
 
-1. Install dependencies:
+1. Clone the repository and install dependencies:
    ```bash
    npm install
    ```
 
-2. Run the development server:
+2. Launch the development server:
    ```bash
    npm run dev
    ```
 
-3. Open [http://localhost:3000](http://localhost:3000) to see the result.
+3. Access the application:
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Project Structure
+## Project Architecture
 
-- `app/`: Next.js App Router pages and layouts.
-- `components/`: Reusable UI components (Hero, Features, HowItWorks, etc.).
-- `public/`: Static assets like images and icons.
-- `lib/`: Utility functions and shared logic.
+- `app/`: Application routing, layouts, and page-level components.
+- `components/`: Modular UI system including core sections like Hero, Features, and Science.
+- `public/`: Static resources, including high-resolution assets and iconography.
+- `lib/`: Core utilities, shared logic, and helper functions.
 
 ---
 
 ## License
 
-This project is private and intended for internal use.
+This software is proprietary and intended for internal use only.
+
 

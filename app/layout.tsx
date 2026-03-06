@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { cn } from "@/lib/utils";
@@ -9,10 +9,11 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const playfair = Playfair_Display({
+const urbanist = Urbanist({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-urbanist",
 });
+
 
 export const metadata: Metadata = {
   title: "MahaCura Canada | #1 AI Cycle Syncing & Period Tracker",
@@ -37,8 +38,9 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           inter.variable,
-          playfair.variable
+          urbanist.variable
         )}
+
       >
         {children}
         <Toaster />

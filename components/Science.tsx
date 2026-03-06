@@ -43,7 +43,7 @@ export function Science() {
 
             <div className="container px-4 md:px-6 relative z-10 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl mb-4">
+                    <h2 className="text-3xl font-urbanist font-medium tracking-tight sm:text-4xl mb-4">
                         More Than Just a Calendar: <span className="text-primary italic">It&apos;s Biology.</span>
                     </h2>
                     <p className="text-muted-foreground text-lg">
@@ -64,7 +64,7 @@ export function Science() {
                             <div className={`w-12 h-12 rounded-xl ${phase.color} flex items-center justify-center mb-4`}>
                                 <phase.icon className="w-6 h-6" />
                             </div>
-                            <h3 className="font-serif text-xl font-medium mb-1">{phase.title}</h3>
+                            <h3 className="font-urbanist text-xl font-medium mb-1">{phase.title}</h3>
                             <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">{phase.desc}</div>
                             <p className="text-sm text-foreground/80 leading-relaxed">
                                 {phase.details}

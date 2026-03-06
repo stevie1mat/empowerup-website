@@ -29,7 +29,7 @@ export function HowItWorks() {
         <section className="py-24 bg-background relative overflow-hidden" id="how-it-works">
             <div className="container px-4 md:px-6 relative z-10 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-20">
-                    <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl mb-4">
+                    <h2 className="text-3xl font-urbanist font-medium tracking-tight sm:text-4xl mb-4">
                         How MahaCura Works
                     </h2>
                     <p className="text-muted-foreground text-lg">
@@ -56,7 +56,7 @@ export function HowItWorks() {
                                     {step.id}
                                 </div>
                             </div>
-                            <h3 className="font-serif text-2xl font-medium mb-3">{step.title}</h3>
+                            <h3 className="font-urbanist text-2xl font-medium mb-3">{step.title}</h3>
                             <p className="text-muted-foreground leading-relaxed max-w-sm">
                                 {step.desc}
                             </p>

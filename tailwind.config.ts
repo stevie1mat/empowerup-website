@@ -25,9 +25,11 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["var(--font-playfair)", "serif"],
+        urbanist: ["var(--font-urbanist)", "sans-serif"],
+        serif: ["var(--font-urbanist)", "sans-serif"],
         sans: ["var(--font-inter)", "sans-serif"],
       },
+
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

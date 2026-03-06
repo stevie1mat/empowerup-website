@@ -8,7 +8,7 @@ export function Features() {
     return (
         <section className="container mx-auto px-4 py-24 md:py-32" id="features">
             <div className="mb-16 text-center max-w-2xl mx-auto">
-                <h2 className="text-3xl font-serif font-medium text-foreground md:text-5xl">
+                <h2 className="text-3xl font-urbanist font-medium text-foreground md:text-5xl">
                     More than just tracking.
                 </h2>
                 <p className="mt-4 text-lg text-muted-foreground">
@@ -32,7 +32,7 @@ export function Features() {
                         <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-background shadow-sm">
                             <CalendarDays className="h-6 w-6 text-primary" />
                         </div>
-                        <h3 className="text-2xl font-serif font-semibold text-foreground mb-2">Cycle Intelligence</h3>
+                        <h3 className="text-2xl font-urbanist font-semibold text-foreground mb-2">Cycle Intelligence</h3>
                         <p className="text-muted-foreground max-w-sm">
                             Beyond simple dates. AI predicts your symptoms and energy levels, syncing your calendar with your biology.
                         </p>
@@ -75,7 +75,7 @@ export function Features() {
                             <BrainCircuit className="h-6 w-6 text-accent" />
                         </div>
                         <div>
-                            <h4 className="font-serif font-semibold text-foreground">Daily Insight</h4>
+                            <h4 className="font-urbanist font-semibold text-foreground">Daily Insight</h4>
                             <p className="text-sm text-muted-foreground mt-1">
                                 Your energy is peaking today! Perfect time for that high-intensity workout you&apos;ve been planning.
                             </p>
@@ -98,7 +98,7 @@ export function Features() {
                         <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-orange-500 shadow-sm">
                             <MapPin className="h-6 w-6" />
                         </div>
-                        <h3 className="text-2xl font-serif font-semibold text-foreground mb-2">Emergency Essentials</h3>
+                        <h3 className="text-2xl font-urbanist font-semibold text-foreground mb-2">Emergency Essentials</h3>
                         <p className="text-muted-foreground">
                             Caught unprepared? Locate the nearest verified store with period products in stock.
                         </p>
@@ -154,7 +154,7 @@ export function Features() {
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white text-primary shadow-sm">
                         <PackageOpen className="h-6 w-6" />
                     </div>
-                    <h3 className="text-xl font-serif font-semibold text-foreground">Smart Inventory</h3>
+                    <h3 className="text-xl font-urbanist font-semibold text-foreground">Smart Inventory</h3>
                     <p className="text-sm text-muted-foreground mt-2 mb-6">
                         Track your stash. Get alerts before you run out.
                     </p>
@@ -186,7 +186,7 @@ export function Features() {
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-secondary text-secondary-foreground shadow-sm">
                         <Bell className="h-6 w-6" />
                     </div>
-                    <h3 className="text-xl font-serif font-semibold text-foreground">Subtle Alerts</h3>
+                    <h3 className="text-xl font-urbanist font-semibold text-foreground">Subtle Alerts</h3>
                     <p className="text-sm text-muted-foreground mt-2">
                         No awkward notifications. Just gentle, private reminders.
                     </p>
