@@ -6,7 +6,7 @@ MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your
 
 ## 📸 Screenshot
 
-![MahaCura Dashboard Placeholder](https://via.placeholder.com/1200x630.png?text=MahaCura+Website+Preview+Placeholder)
+![MahaCura Dashboard](public/git-screenshot.png)
 *Add your website screenshot here*
 
 ---
