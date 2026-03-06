@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MahaCura - Period Tracker Website
 
-## Getting Started
+MahaCura is a modern, AI-powered period-tracking ecosystem designed to sync your life with your biology. Beyond simple tracking, MahaCura connects your body's rhythm with the world around you, helping you find essentials nearby and manage your inventory.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshot
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![MahaCura Dashboard Placeholder](https://via.placeholder.com/1200x630.png?text=MahaCura+Website+Preview+Placeholder)
+*Add your website screenshot here*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- **🧠 Cycle Intelligence**: AI-powered predictions for symptoms and energy levels, syncing your calendar with your biology.
+- **📍 Emergency Essentials**: Locate the nearest verified store with period products in stock when caught unprepared.
+- **📦 Smart Inventory**: Track your personal stash and receive alerts before you run out of essentials.
+- **🔔 Subtle Alerts**: Private, discrete notifications and reminders designed for your privacy.
+- **💬 Meet Luna**: Your AI cycle companion that provides daily insights based on your peaking energy levels.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Components**: Custom-built with a focus on "Glassmorphism" and premium aesthetics.
+- **Font**: Geist & Custom Serif fonts for a premium feel.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- Node.js 18+
+- npm / yarn / pnpm
+
+### Installation
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+---
+
+## 📂 Project Structure
+
+- `app/`: Next.js App Router pages and layouts.
+- `components/`: Reusable UI components (Hero, Features, HowItWorks, etc.).
+- `public/`: Static assets like images and icons.
+- `lib/`: Utility functions and shared logic.
+
+---
+
+## 📄 License
+
+This project is private and intended for internal use.
+
