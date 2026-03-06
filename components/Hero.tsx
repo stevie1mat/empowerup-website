@@ -24,7 +24,7 @@ export function Hero() {
                     >
                         <div className="space-y-4">
                             <h1 className="text-4xl font-urbanist font-medium tracking-tight text-foreground sm:text-5xl xl:text-6xl/none">
-                                Meet <span className="text-primary italic">Luna.</span> <br />
+                                Meet <span className="text-primary">Luna.</span> <br />
                                 Your cycle&apos;s new best friend.
                             </h1>
                             <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">

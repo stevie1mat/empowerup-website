@@ -53,7 +53,7 @@ export function Testimonials() {
                                         <Star key={s} className="w-4 h-4 text-accent fill-accent" />
                                     ))}
                                 </div>
-                                <p className="text-foreground/80 italic mb-6 leading-relaxed">
+                                <p className="text-foreground/80 mb-6 leading-relaxed">
                                     &quot;{t.quote}&quot;
                                 </p>
                             </div>
