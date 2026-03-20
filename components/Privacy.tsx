@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 export function Privacy() {
     return (
@@ -28,9 +29,9 @@ export function Privacy() {
                     </p>
 
                     <div className="pt-4">
-                        <button className="text-sm font-semibold text-primary decoration-primary underline-offset-4 hover:underline">
+                        <Link href="/privacy" className="text-sm font-semibold text-primary decoration-primary underline-offset-4 hover:underline">
                             Read our full Privacy Promise &rarr;
-                        </button>
+                        </Link>
                     </div>
                 </motion.div>
             </div>
