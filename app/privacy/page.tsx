@@ -63,14 +63,14 @@ export default function PrivacyPolicy() {
             </h2>
             <p>
               You have the right to access, correct, or delete your personal
-              information. You can manage your data directly within the "My
-              Account" section of the app or contact us for assistance.
+              information. You can manage your data directly within the &quot;My
+              Account&quot; section of the app or contact us for assistance.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-4">
-              6. Children's Privacy
+              6. Children&apos;s Privacy
             </h2>
             <p>
               Our services are not intended for use by children under the age of
