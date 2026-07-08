@@ -24,8 +24,7 @@ export function Privacy() {
                     </h2>
 
                     <p className="text-lg text-muted-foreground md:text-xl">
-                        We believe privacy is a human right. Your data is stored locally and encrypted.
-                        We don&apos;t see it, and we certainly don&apos;t sell it.
+                        Privacy is a human right. Your data is stored locally and encrypted. We do not see it. We do not share it. We do not sell it. Period.
                     </p>
 
                     <div className="pt-4">

@@ -27,7 +27,10 @@ export function Hero() {
                                 Your cycle&apos;s new best friend.
                             </h1>
                             <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
-                                Sync your life with your biology. <span className="font-semibold text-foreground">Luna (AI)</span> predicts your energy and mood, while tracking your <span className="text-secondary-foreground">inventory and local supplies</span> so you never run out.
+                                Sync your cycle with Luna (AI Care Companion) - dedicated support tool on the MahaCura platform. She makes your menstrual experience easier by helping you understand your cycle, recommending products, tracking your period, locating self-care and wellness items, and connecting you with a supportive community.
+                            </p>
+                            <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
+                                MahaCura is a digital app building a national standard for inclusive, user-centred menstrual care. We shift systems, reduce stigma, and increase accessibility for everyone who menstruates.
                             </p>
                         </div>
 

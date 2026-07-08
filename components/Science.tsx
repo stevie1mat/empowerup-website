@@ -44,10 +44,10 @@ export function Science() {
             <div className="container px-4 md:px-6 relative z-10 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl font-urbanist font-medium tracking-tight sm:text-4xl mb-4">
-                        More Than Just a Calendar: <span className="text-primary">It&apos;s Biology.</span>
+                        More Than Just a Calendar: <span className="text-primary">It&apos;s Your Period.</span>
                     </h2>
                     <p className="text-muted-foreground text-lg">
-                        Your body isn&apos;t the same every day, so why should your app be? Luna adapts to your unique 4-phase rhythm.
+                        Your body isn&apos;t the same every day, so why should your app be? Luna adapts to your unique 4-phase cycle.
                     </p>
                 </div>
 

@@ -9,11 +9,10 @@ export function Features() {
         <section className="container mx-auto px-4 py-24 md:py-32" id="features">
             <div className="mb-16 text-center max-w-2xl mx-auto">
                 <h2 className="text-3xl font-urbanist font-medium text-foreground md:text-5xl">
-                    More than just tracking.
+                    Your Personalized Period Tracker
                 </h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    MahaCura connects your body&apos;s rhythm with the world around you.
-                    Find essentials nearby, manage your inventory, and stay ahead of your cycle.
+                    Your cycle. Find essentials nearby, manage your inventory, and stay ahead of your cycle.
                 </p>
             </div>
 
@@ -186,9 +185,9 @@ export function Features() {
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-secondary text-secondary-foreground shadow-sm">
                         <Bell className="h-6 w-6" />
                     </div>
-                    <h3 className="text-xl font-urbanist font-semibold text-foreground">Subtle Alerts</h3>
+                    <h3 className="text-xl font-urbanist font-semibold text-foreground">Luna&apos;s Daily Check-in</h3>
                     <p className="text-sm text-muted-foreground mt-2">
-                        No awkward notifications. Just gentle, private reminders.
+                        Stay on track with daily period reminders, motivational quotes, and Luna Facts-so you learn something new about your cycle every day.
                     </p>
 
                     <div className="mt-6 flex flex-col gap-3">

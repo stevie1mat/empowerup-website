@@ -42,7 +42,7 @@ export function Header() {
                             Features
                         </Link>
                         <Link href="/#science" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-                            Science
+                            Cycle
                         </Link>
                         <Link href="/#privacy" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                             Privacy
@@ -77,7 +77,7 @@ export function Header() {
                             Features
                         </Link>
                         <Link href="/#science" className="text-base font-medium text-muted-foreground hover:text-foreground p-2" onClick={() => setIsMobileMenuOpen(false)}>
-                            Science
+                            Cycle
                         </Link>
                         <Link href="/#privacy" className="text-base font-medium text-muted-foreground hover:text-foreground p-2" onClick={() => setIsMobileMenuOpen(false)}>
                             Privacy

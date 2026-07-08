@@ -7,13 +7,13 @@ const steps = [
     {
         id: 1,
         title: "Log Your Symptoms",
-        desc: "A quick daily check-in. Tap to log mood, energy, and physical signs in under 10 seconds.",
+        desc: "A quick daily check-in. Log your mood, energy, and how you're feeling - in under 10 seconds.",
         icon: ListChecks,
     },
     {
         id: 2,
         title: "Get Daily Insights",
-        desc: "Luna analyzes your data to explain WHY you feel this way and what your body needs to thrive.",
+        desc: "Luna tracks your daily patterns and offers recommendations into what you may need-when you need it.",
         icon: Lightbulb,
     },
     {
@@ -33,7 +33,7 @@ export function HowItWorks() {
                         How MahaCura Works
                     </h2>
                     <p className="text-muted-foreground text-lg">
-                        Three simple steps to mastering your monthly rhythm.
+                        Three simple steps to mastering your monthly cycle.
                     </p>
                 </div>
 
