@@ -6,21 +6,57 @@ import { useState } from "react";
 
 const faqs = [
     {
-        q: "Is my data stored in Canada?",
-        a: "Yes. We use Canadian-based data centers (Montreal region) to ensure your health data never leaves the country, fully complying with PIPEDA.",
+        "q": "What is MahaCura?",
+        "a": "MahaCura helps you understand your cycle, track your period and symptoms, discover menstrual products, and connect with a community. Our goal is to reduce stigma and make menstrual care more accessible."
     },
     {
-        q: "Does it sync with Apple Health?",
-        a: "Absolutely. MahaCura offers 2-way sync with Apple Health, so all your data lives in one secure place.",
+        "q": "What are MahaCura’s values?",
+        "a": "We are building inclusive, user-centred menstrual care for people in Canada. We listen to people who menstruate and design around their needs, comfort, and concerns."
     },
     {
-        q: "Is the basic version free?",
-        a: "Yes! The core period tracking, inventory checks, and symptom logging are 100% free forever. Luna AI insights require a premium subscription.",
+        "q": "Who can use MahaCura?",
+        "a": "MahaCura is designed for people who menstruate in Canada, with an app for iOS and Android."
     },
     {
-        q: "Which stores does the inventory tracker work with?",
-        a: "Currently, we track stock at major Canadian retailers including Shoppers Drug Mart, Rexall, London Drugs, and Walmart Canada.",
+        "q": "Is the app available in French?",
+        "a": "MahaCura supports English and French. You can change the language in Settings under Preferences."
     },
+    {
+        "q": "Does MahaCura sponsor any brands?",
+        "a": "No. MahaCura does not sponsor product brands. Recommendations are based on the information you share and the app’s recommendation rules."
+    },
+    {
+        "q": "How are product recommendations made?",
+        "a": "Luna uses your onboarding answers, including product comfort, access to clean water and sanitation, material sensitivities, flow, product preferences, priorities, sustainability preferences, and monthly budget. Cycle information and recent symptom logs also help personalize guidance. Missing product information can limit the recommendations available."
+    },
+    {
+        "q": "Is MahaCura a medical device?",
+        "a": "MahaCura is a care companion that informs rather than diagnoses. It does not replace medical advice or professional care. Consult a healthcare professional about medical concerns."
+    },
+    {
+        "q": "Who is behind MahaCura?",
+        "a": "MahaCura was created with a vision of menstrual equity. Its approach centres on listening to women and other people who menstruate, then building an app that reflects their needs and concerns."
+    },
+    {
+        "q": "Is MahaCura free?",
+        "a": "Cycle tracking, symptom logging, product browsing, and reading community posts are free. Free accounts include five CONNECT posts and five Luna messages. The CAD $4.99/month plan unlocks unlimited CONNECT posting, Expert Opinion articles, and Luna chat while the subscription is active."
+    },
+    {
+        "q": "Who is Luna?",
+        "a": "Luna is MahaCura’s personalized care companion. She helps you understand your cycle, track patterns, and explore wellness tips, menstrual products, and educational content."
+    },
+    {
+        "q": "How does Luna work?",
+        "a": "Luna uses your onboarding preferences and logged cycle information to personalize the experience. Luna Care supports tracking and wellness, while Learn with Luna offers education about cycles, symptoms, and products."
+    },
+    {
+        "q": "Is Luna 100% accurate?",
+        "a": "No. Predictions and recommendations may change as you add information. Luna supports and informs you; she does not diagnose medical conditions."
+    },
+    {
+        "q": "Can I use MahaCura if I am under 16?",
+        "a": "Ask your parent or guardian to help set up your MahaCura account, give permission to use the app, and choose your privacy settings before you continue."
+    }
 ];
 
 export function FAQ() {
@@ -51,6 +87,8 @@ export function FAQ() {
                             <button
                                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                                 className="flex items-center justify-between w-full p-6 text-left hover:bg-secondary/40 transition-colors"
+                                id={`faq-question-${i}`}
+                                aria-controls={`faq-answer-${i}`}
                                 aria-expanded={openIndex === i}
                             >
                                 <span className="font-medium text-foreground text-lg">{faq.q}</span>
@@ -61,6 +99,10 @@ export function FAQ() {
                                 )}
                             </button>
                             <div
+                                id={`faq-answer-${i}`}
+                                role="region"
+                                aria-labelledby={`faq-question-${i}`}
+                                aria-hidden={openIndex !== i}
                                 className={`grid transition-[grid-template-rows] duration-300 ease-out ${openIndex === i ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
                                     }`}
                             >
